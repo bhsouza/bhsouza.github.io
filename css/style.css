@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    background: rgb(111,128,222);
+    background: linear-gradient(180deg, rgba(111,128,222,1) 0%, rgba(10,25,110,1) 100%);
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foto{
+    width: 85px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 22px white;
+}
+
+.social-icons{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    color: white;
+    width: 33px;
+}
+
+i:hover{
+    color: #000000;
+    transition: 0.3s;
+}
+
+.box-model{
+    margin: 15px 20px;
+}
+
+.box-model a{
+    margin-bottom: 12px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(140,213,228,1) 100%);
+    padding: 15px 20px;
+    display: block;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+}
+
+.box-model a span{
+    display: block;
+    color: grey;
+    margin-top: 10px;
+}
