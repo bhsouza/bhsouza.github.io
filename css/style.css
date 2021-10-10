@@ -19,10 +19,12 @@ h1{
     font-size: 24px;
     font-weight: 100;
     margin-bottom: 4px;
+    text-shadow: 2px 2px 2px black;
 }
 
 h2{
     font-size: 16px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .profile{
